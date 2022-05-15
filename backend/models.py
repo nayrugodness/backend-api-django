@@ -63,7 +63,7 @@ class Reserva(models.Model):
     apellido = models.CharField(max_length=50)
     correo = models.EmailField(blank=True, null=True)
     telefono = models.IntegerField()
-    comensales = models.IntegerField(max_length=100)
+    comensales = models.IntegerField()
     establecimiento = models.ForeignKey(Establecimientos, on_delete=models.PROTECT)
     creado = models.DateField(auto_now_add=True)
     editado = models.DateField(auto_now=True)
