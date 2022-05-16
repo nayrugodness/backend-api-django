@@ -8,7 +8,7 @@ router.register('establecimientos', views.EstablecimientosViewset)
 router.register('categoria', views.CategoriasViewset)
 router.register('usuarios', views.UsersViewset)
 router.register('contacto', views.ContactoViewset)
-router.register('reserva', views.ReservaViewset)
+router.register('reserva', views.ReservasViewset)
 
 # localhost:8000/api/establecimiento/
 
